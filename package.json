@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "installer":"pnpm install",
+    "installer": "pnpm install",
     "clean:dev": "rimraf build",
     "clean:prod": "rimraf dist",
     "build": "node esbuild.config.js",
@@ -20,6 +20,7 @@
     "@types/webpack-node-externals": "^2.5.3",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
+    "axios": "0.27.2",
     "babel-loader": "^9.1.0",
     "dotenv": "^16.0.3",
     "esbuild": "^0.15.13",
@@ -46,6 +47,7 @@
     "webpack-shell-plugin-next": "^2.3.1"
   },
   "dependencies": {
+    "body-parser": "^1.20.1",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5"
   }
